@@ -1,0 +1,53 @@
+.hero_section {
+    min-height: 400px;
+    padding: 2rem;
+    min-width: 100%;
+}
+
+
+.hero_section h2 {
+    color: black;
+    font-weight: 700;
+    margin: 22px 0;
+    font-size: 2.3rem;
+}
+
+.hero_section .hero_subtitle {
+    font-weight: 500;
+}
+
+.hero_section p {
+    line-height: 25px;
+}
+
+.hero_section .buy_btn {
+    font-size: 1rem;
+    padding: 7px 18px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 1rem;
+    background-color: #091835;
+}
+
+.hero_image {
+    margin-top: 1rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media only screen and (max-width:768px) {
+    .hero_subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero_subtitle2 {
+        font-size: .7rem;
+
+    }
+}

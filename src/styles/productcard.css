@@ -1,0 +1,40 @@
+.product_item {
+    /* background-color: #99a9ff; */
+    width: 180px;
+    max-height: 370px;
+    border-radius: 0 0 5px 5px;
+}
+
+.add_card button {
+    background-color: #091835;
+    border-radius: 7px;
+    color: white;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+.product_img .img {
+    padding: 5px;
+}
+
+.product_desc {
+    text-align: center;
+}
+
+.product_name {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.price {
+    font-weight: 700;
+    color: #091835;
+
+}
+
+.product_name a {
+    color: #091835;
+    text-decoration: none;
+}

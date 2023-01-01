@@ -1,0 +1,146 @@
+#header {
+    /* background-color: #f2ff; */
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+    max-height: 100px;
+    position: sticky;
+    top: 0;
+
+}
+
+.scrolled {
+    background-color: #091835;
+    color: #fff;
+}
+
+.scrolled .nav_link #link {
+    /* background-color: #091835; */
+    color: #fff;
+}
+
+.nav_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    line-height: 60px;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    padding-right: 7px;
+    padding-bottom: 6px;
+}
+
+
+.menu,
+.nav_icons {
+    display: flex;
+    justify-content: center;
+    column-gap: .6rem;
+    padding-bottom: 20px;
+}
+
+.fav_icon,
+.card_icon,
+.user_icon {
+    padding-bottom: 9px;
+    cursor: pointer;
+    padding-left: 6px;
+    font-size: 1.3rem;
+}
+
+.nav_link #link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_active {
+    font-weight: 700;
+
+}
+
+.nav_link {
+    font-size: 1.4rem;
+    list-style: none;
+
+}
+
+.mobile_menu {
+    padding-bottom: 24px;
+    font-size: 1.6rem;
+    display: none;
+}
+
+@media only screen and (max-width:768px) {
+    .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #091835c8;
+        z-index: 1999;
+        display: none;
+
+    }
+
+    .nav_link {
+        padding: 0px 20px;
+        text-align: center;
+
+    }
+
+
+
+    .menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 300px;
+        /* background-color: #091835c8; */
+        height: 100vh;
+        background-color: #fff;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mobile_menu {
+        display: block;
+
+    }
+
+    .fav_icon,
+    .card_icon,
+    .user_icon {
+
+        font-size: 1rem;
+    }
+
+    .header_logo img {
+        width: 33px;
+        height: 33px;
+    }
+
+    .header_logo {
+        font-size: 1.3rem;
+        font-weight: 800;
+    }
+
+}
+
+.active_menu {
+    display: block;
+}

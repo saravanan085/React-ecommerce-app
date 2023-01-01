@@ -1,0 +1,24 @@
+.footer_sec {
+    line-height: 2rem;
+    padding: 1.6rem;
+}
+
+.footer_subheading {
+    font-size: 2.3rem;
+}
+
+.foo__links {
+    color: #fff;
+    text-decoration: none;
+    /* font-size: 20px; */
+    font-weight: 400;
+}
+
+.foo__links:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+    transition: 1s ease-in-out;
+    color: inherit;
+
+}
