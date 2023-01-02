@@ -20,6 +20,7 @@ const nav_links = [
         path: 'card',
         display: 'Card'
     }
+
 ]
 
 const Header = () => {
@@ -60,7 +61,7 @@ const Header = () => {
                                     {
                                         nav_links.map((items, index) => (
 
-                                            <motion.div whileHover={{ scale: 1.2 }} className='nav_link pb-3' key={index} >
+                                            <motion.div whileHover={{ scale: 1.2 }} className='nav_link pb-3 mx-2' key={index} >
                                                 <NavLink className={(navclass) =>
 
                                                     navclass.isActive ? 'nav_active' : ''}
